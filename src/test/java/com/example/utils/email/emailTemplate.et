@@ -1,0 +1,8 @@
+Hello {called} {userName} :)
+
+    Your birthday {birthday} is coming!
+You are {sex}, and {age} years old
+{separator}
+{introduction}
+{separator}
+{contact}
