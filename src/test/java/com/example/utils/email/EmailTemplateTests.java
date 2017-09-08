@@ -1,11 +1,6 @@
 package com.example.utils.email;
 
-import com.example.utils.extend.ConsoleUtils;
 import lombok.extern.slf4j.Slf4j;
-import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.junit4.SpringRunner;
 
 import java.io.File;
 import java.io.IOException;
@@ -44,7 +39,6 @@ public class EmailTemplateTests {
      * Parse from String.
      */
     private static void parseString() {
-        ConsoleUtils.printlnRed("########## parse from String ##########");
 
         prepareExtendsValue(valuesMap);
 
@@ -66,7 +60,6 @@ public class EmailTemplateTests {
      * Parse from File.
      */
     private static void parseFile() {
-        ConsoleUtils.printlnRed("######### parse from String ##########");
 
         prepareExtendsValue(valuesMap);
 
