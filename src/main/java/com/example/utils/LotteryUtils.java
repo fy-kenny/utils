@@ -10,7 +10,6 @@ import com.example.utils.constant.IssueHistoryEnum;
 import com.example.utils.constant.IssueTimes;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Sets;
-import com.sun.istack.internal.NotNull;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Arrays;
@@ -39,7 +38,7 @@ public interface LotteryUtils {
     return drawNumberList.stream().map(Object::toString).collect(Collectors.joining(delimiter));
   }
 
-  static String getDrawNumberAsString(@NotNull final List<Integer> drawNumberList,
+  static String getDrawNumberAsString(final List<Integer> drawNumberList,
       final boolean sorted,
       String delimiter) {
 
