@@ -1,12 +1,12 @@
 package com.example.utils;
 
-import static com.example.utils.constant.IssueHistoryEnum.MORE;
-import static com.example.utils.constant.IssueHistoryEnum.YESTERDAY;
+import static com.example.utils.constant.enums.IssueHistoryEnum.MORE;
+import static com.example.utils.constant.enums.IssueHistoryEnum.YESTERDAY;
 import static com.example.utils.constant.StringExtUtils.COMMA;
 import static com.example.utils.constant.SysConstant.FORMAT_YYMMDD;
 import static org.apache.commons.lang3.StringUtils.EMPTY;
 
-import com.example.utils.constant.IssueHistoryEnum;
+import com.example.utils.constant.enums.IssueHistoryEnum;
 import com.example.utils.constant.IssueTimes;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Sets;
@@ -25,6 +25,7 @@ import org.springframework.util.CollectionUtils;
 
 /**
  * @author Kenny Fang
+ * @since 0.0.1
  */
 public interface LotteryUtils {
 
