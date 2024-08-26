@@ -25,7 +25,7 @@
 
 		<mybatis-spring-boot-starter.version>2.1.4</mybatis-spring-boot-starter.version>
 
-		<springfox-swagger2.version>2.9.2</springfox-swagger2.version>
+		<springfox-swagger2.version>2.10.0</springfox-swagger2.version>
 		<swagger.version>1.5.22</swagger.version>
 		<scrypt.version>1.4.0</scrypt.version>
 	</properties>
